@@ -10,10 +10,6 @@
     "success_url": "https://t.me/Ace_networkop",
     "repository": "https://github.com/golujha9936/Auto-Forward-Bot",
     "env": {
-        "AS_COPY": {
-            "description": "set this to true to forward message as copy",
-            "value": "False" 
-        },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "value": ""
