@@ -7,6 +7,14 @@ from config import Config
 from translation import Translation
 
 
+url_button=InlineKeyboardMarkup(
+        [
+              [
+                  InlineKeyboardButton("⚙ UPDATE CHANNEL", url='https://t.me/Ace_networkop'), 
+                  InlineKeyboardButton("⭕️ CHANNEL", url='https://t.me/About_Aryan_Owner')
+              ]
+        ]
+) 
 ################################################################################################################################################################################################################################################
 # start command
 
@@ -15,6 +23,7 @@ async def start(client, message):
     await message.reply(
         text=Translation.START,
         disable_web_page_preview=True,
+        reply_markup = url_button
         quote=True
     )
 
@@ -26,6 +35,7 @@ async def about(client, message):
     await message.reply(
         text=Translation.ABOUT,
         disable_web_page_preview=True,
+        reply_markup = url_button
         quote=True
     )
 
