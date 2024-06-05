@@ -8,7 +8,7 @@
         "forward"
     ],
     "success_url": "https://t.me/Ace_networkop",
-    "repository": "https://github.com/golujha9936/Auto-Forward-Bot",
+    "repository": "https://github.com/golujha9936/Post-Forward-Bot",
     "env": {
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
